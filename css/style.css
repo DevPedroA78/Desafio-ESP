@@ -1,0 +1,147 @@
+.card-profiles {
+  padding: 2rem;
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.card-profiles .profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.card-profiles .profiles span {
+  color: gray;
+}
+
+.card-profiles .profiles p {
+  color: lightgray;
+}
+
+.card-profiles .profiles img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.hashtag {
+  color: lightgrey;
+}
+
+.titulo-hashtag {
+  color: gray;
+  margin-right: 5px;
+}
+
+.titulo-hashtag:hover {
+  color: black;
+}
+
+.p-profiles h2:hover {
+  color: blue;
+}
+
+.card-reacciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.initial-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: lightgray;
+}
+
+.initial-card .small {
+  margin-right: 4px;
+}
+
+.final-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 150px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: lightgray;
+}
+
+.final-card .small {
+  margin-right: 4px;
+}
+
+.tiempo-leido {
+  color: lightgray;
+}
+
+.profiles p:hover {
+  color: black;
+}
+
+.profiles span:hover {
+  color: black;
+}
+
+.nav-item {
+  color: black;
+}
+
+.menu-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-profile {
+  max-width: 40px;
+}
+
+.Listings {
+  margin-right: 100px;
+}
+
+.lista-educacion {
+  margin-top: 20px;
+}
+
+aside div p:hover {
+  color: blue;
+}
+
+.crear-lista:hover {
+  color: blue;
+}
+
+aside div h3:hover {
+  color: blue;
+}
+
+.boton-news {
+  color: white;
+  background-color: blue;
+  border: none;
+}
+
+main ul .nav-post {
+  margin-right: 40px;
+}
+
+.nav-link:hover {
+  background-color: lightblue;
+  color: blue;
+  opacity: 50%;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=style.css.map */
