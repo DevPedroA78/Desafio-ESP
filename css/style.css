@@ -1,0 +1,53 @@
+/*AQUI SE CAMBIA ESTILO DE FUENTES EN ASIDE 1*/
+.fontcolor a {
+  color: rgba(1, 1, 1, 0.988);
+  /*background-color: hotpink;*/
+}
+
+/*Clase para modificar 1er ANCOR EN MENU DE ASIDE1*/
+.signing {
+  font-weight: bold;
+}
+
+/*SEGUNNDO NAV DEL ASIDE1*/
+.bgd-items {
+  background-color: #eff0f1;
+}
+
+/*AQUI SE CAMBIA SECCION DE ICONOS SOCIALES EN NAV ASIDE 1*/
+.socialicons {
+  background-color: #eff0f1;
+  padding: 10%;
+}
+
+.aside1 {
+  margin-bottom: 10%;
+}
+
+.tagsection {
+  font-size: 100%;
+  font-weight: bolder;
+}
+
+/*AQUI SE CAMBIA ASPECTOS DEL SCROLL*/
+.moretags {
+  text-decoration: none;
+  background-color: #eee;
+  width: auto;
+  max-height: 42vh;
+  border: none;
+  overflow: visible;
+  margin-bottom: 20%;
+}
+
+.sponsorship {
+  width: 100%;
+  height: 100%;
+}
+
+.sponsorship h3 {
+  color: #3b49df;
+  text-align: center;
+  font-size: 100%;
+}
+/*# sourceMappingURL=style.css.map */
