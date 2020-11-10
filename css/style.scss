@@ -1,10 +1,19 @@
 @import '_variables.scss';
 @import '_mixins.scss';
+@import '_main.scss';
 @import '_nav.scss';
 @import '_aside1.scss';
+@import '_aside2.scss';
 @import '_footer.scss';
 
 
 .container-fluid{
     margin-top: 65px;
+    background-color:#EEF0F1;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
