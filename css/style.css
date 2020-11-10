@@ -348,8 +348,8 @@ footer .Sloan:hover {
 }
 
 .container-fluid {
-  margin-top: 65px;
   background-color: #EEF0F1;
+  padding-top: 90px;
 }
 
 * {
