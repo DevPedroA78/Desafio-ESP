@@ -1,4 +1,3 @@
-
 /*AQUI SE CAMBIA ESTILO DE FUENTES EN ASIDE 1*/
 .fontcolor a {
     color: rgba(1, 1, 1, 0.988);
@@ -49,5 +48,18 @@
         color: #3b49df;
         text-align: center;
         font-size: 100%;
+    }
+}
+
+/*AQUI SE CAMBIAN LAS PROPIEDAD DEL AVATAR DE ASIDE 1*/
+.aside-profile-image {
+    width: 70%;
+    height: 70%;
+}
+
+.aside-profile-content {
+    h6 {
+        color: $color-social_hover;
+        font-weight: lighter;
     }
 }

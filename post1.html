@@ -4,58 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/1f42bf96bf.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Desafio ESP</title>
-</head>
-<body>
-
-<!-- AQUI VA EL NAV LINEA 12 *******************************************-->
-    <nav>
-        <p>NAV</p>
-    </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -112,156 +60,40 @@
             <div class="container">
                 <div class="row">
                     <!--**********************************************************************************************************************************************************************-->
-                    <!--***********AQUI INICIA EL ASIDE 1 linea 63***************************************************************************************************-->
+                    <!--***********AQUI INICIA EL ASIDE 1***************************************************************************************************-->
                     <!--**********************************************************************************************************************************************************************-->
-                    <div class="d-none col-0 d-md-block col-md-4 d-lg-block col-lg-3">
-                        <aside class="bgd-items">
-                            <nav class="fontcolor bgd-items">
-                                
-                                <a class="d-flex justify-content-center align-items-center">
-                                    <span>
-                                        <img src="images/nav/perfil-icon.png" class="aside-profile-image rounded-circle" alt="...">
-                                    </span>
-                                    <div class="aside-profile-content">
-                                        <h5>User Name</h5>
-                                        <h6>@username</h6>
-                                    </div>                                    
-                                </a>
-                                <div>
-                                    <a class="nav-link active signing fontcolor" href="#">🤝 Sign In/Up</a>
-                                    <a class="nav-link" href="#">📜 Listings</a>
-                                    <a class="nav-link" href="#">🎙 Podcasts</a>
-                                    <a class="nav-link" href="#">🎥 Videos</a>
-                                    <a class="nav-link" href="#">🏷 Tags</a>
-                                    <div class="bgd-items">
-                                        <a class="nav-link" href="#">👍 Code of conduct</a>
-                                        <a class="nav-link" href="#">💡 FAQ</a>
-                                        <a class="nav-link" href="#">🛍 DEV Shop</a>
-                                        <a class="nav-link" href="#">❤️ Sponsors</a>
-                                        <a class="nav-link" href="#"><img src="images/dev-rainbow Mdf.png"> About</a>
-                                        <a class="nav-link" href="#">🤓 Privacy Policy</a>
-                                        <a class="nav-link" href="#">👀 Term of use</a>
-                                        <a class="nav-link" href="#">📯 Contact</a>
-                                        <div class="socialicons aside1 d-flex justify-content-around align-items-center">
-                                            <a><i class="fab fa-twitter twitter-logo"></i></a>
-                                            <a><i class="fab fa-facebook-square"></i></a>
-                                            <a><i class="fab fa-github"></i></a>
-                                            <a><i class="fab fa-instagram-square"></i></a>
-                                            <a><i class="fab fa-twitch"></i></a>
-                                        </div>
-                                    </div>
+                    <nav class="navbar position-fixed fixed-bottom navbar-light shadow-sm p-1 rounded nav-bottom text-dark justify-content-around">
+                        <button class="navbar-brand heart d-flex align-items-center justify-content-center border-0">
+                            <a class="rounded-circle icon p-2 far fa-heart text-decoration-none" href="#"></a>
+                            #
+                        </button>
+                        <button class="navbar-brand unicorn d-flex align-items-center justify-content-center border-0">
+                            <a class="rounded-circle icon p-2 d-flex align-items-center fas fa-horse-head text-decoration-none" href="#"></a>
+                            #
+                        </button>
+                        <button class="navbar-brand saved d-flex align-items-center justify-content-center border-0">
+                            <a class="rounded-circle icon p-2 d-flex align-items-center far fa-bookmark text-decoration-none" href="#"></a>
+                            #
+                        </button>
+                        <div class="navbar-brand rounded-circle p-1 d-flex align-items-center dropdown">
+                            <button class="rounded-circle icon p-2 fa fa-ellipsis-h border-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            </button>
+                            <div class="dropdown-content rounded position-absolute">
+                                <div class="d-flex align-items-center "> 
+                                    <input type="url" class="flex-grow-1 mr-2"  placeholder="https://">
+                                    <i class="icon far fa-copy"></i>
                                 </div>
-                            </nav>
-                            <nav>
-                                <div>
-                                    <h4 class="tagsection">My Tags</h4>
-                                </div>
-                                <div class="moretags d-flex flex-column aside1 overflow-auto">
-                                    <a>#javascript</a>
-                                    <a>#webdev</a>
-                                    <a>#beginners</a>
-                                    <a>#react</a>
-                                    <a>#tutorial</a>
-                                    <a>#css</a>
-                                    <a>#discuss</a>
-                                    <a>#codenewbie</a>
-                                    <a>#programming</a>
-                                    <a>#android</a>
-                                    <a>#opensopurce</a>
-                                    <a>#node</a>
-                                    <a>#career</a>
-                                    <a>#devops</a>
-                                    <a>#html</a>
-                                    <a>#github</a>
-                                    <a>#showdev</a>
-                                    <a>#typescript</a>
-                                    <a>#hacktoberfest</a>
-                                    <a>#java</a>
-                                    <a>#aws</a>
-                                    <a>#linux</a>
-                                    <a>#testing</a>
-                                </div>
-                                <div class="sponsorship d-flex flex-column flex-justify-content flex-align-items flex-wrap">
-                                    <a><img src="https://picsum.photos/200"></a>
-                                    <h3>Got Dev stickers yet?</h3>
-                                </div>
-                            </nav>
-                        </aside>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                <a class="dropdown-item" href="#">Share to Twitter</a>
+                                <a class="dropdown-item" href="#">Share to LinkedIn</a>
+                                <a class="dropdown-item" href="#">Share to Reddit</a>
+                                <a class="dropdown-item" href="#">Share to Hacker News</a>
+                                <a class="dropdown-item" href="#">Share to Facebook</a>
+                                <a class="dropdown-item" href="#">Report Abuse</a>
+                            </div>
+                        </div>
+                    </nav>
                     <!--**********************************************************************************************************************************************************************-->
-                    <!--***********AQUI TERMINA EL ASIDE1  linea 201***************************************************************************************************-->
+                    <!--***********AQUI TERMINA EL ASIDE1***************************************************************************************************-->
                     <!--***********AQUI INICIA EL MAIN***************************************************************************************************-->
                     <!--**********************************************************************************************************************************************************************-->
                     <main class="col-12 col-md-8 col-lg-6">
@@ -680,89 +512,8 @@
                             </div>
                         </div>
                     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <!--**********************************************************************************************************************************************************************-->
-                    <!--***********AQUI TERMINA EL MAIN  LINEA 701***************************************************************************************************-->
+                    <!--***********AQUI TERMINA EL MAIN***************************************************************************************************-->
                     <!--***********AQUI INICIA EL ASIDE2***************************************************************************************************-->
                     <!--**********************************************************************************************************************************************************************-->
                     <aside class="col-0 col-md-0 col-lg-3 d-none d-lg-block">
@@ -975,106 +726,7 @@
                             </div>
                         </div>
                     </aside>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <!--***********AQUI TERMINA EL ASIDE2  LINEA 1013***************************************************************************************************-->
+                    <!--***********AQUI TERMINA EL ASIDE2***************************************************************************************************-->
                 </div>
             </div>
         </div>
