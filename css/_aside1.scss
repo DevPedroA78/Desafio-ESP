@@ -50,3 +50,16 @@
         font-size: 100%;
     }
 }
+
+/*AQUI SE CAMBIAN LAS PROPIEDAD DEL AVATAR DE ASIDE 1*/
+.aside-profile-image {
+    width: 70%;
+    height: 70%;
+}
+
+.aside-profile-content {
+    h6 {
+        color: $color-social_hover;
+        font-weight: lighter;
+    }
+}
