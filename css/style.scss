@@ -1,8 +1,20 @@
-@import 'variables';
-@import 'mixins';
-@import 'nav';
-@import 'main';
-@import 'aside1';
-@import 'aside2';
-@import 'footer';
+@import '_variables.scss';
+@import '_mixins.scss';
+@import '_main.scss';
+@import '_nav.scss';
+@import '_aside1.scss';
+@import '_aside2.scss';
+@import '_footer.scss';
+@import '_post1-aside1.scss';
 
+
+.container-fluid{
+    background-color:#EEF0F1;
+    padding-top: 90px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
